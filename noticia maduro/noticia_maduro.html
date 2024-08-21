@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+/* Início CSS */
+
+/* Zerando Padding e Margin no Body*/
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.pre_header{
+    font-size: 80%;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(189, 0, 0); 
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Arredondando borda das imagens */
+img{
+    border-radius: 5px;
+}
+
+/* Fazendo a div ter 70% do tamanho para aplicar o flex center e nao ocupar toda tela*/
+.article-header{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Título Geral da Notícia */
+.article-header h1{
+    width: 60%;
+    font-size: 300%;
+    margin-bottom: -1px;
+}
+
+.article-header hr {  
+    width: 60%;
+}             
+
+.noticia{
+    display: flex;
+    justify-content: center;
+}
+
+/* Fazendo o article (noticia) ter metade do tamanho para centralizar e o texto ficar menos largo*/
+.paragrafos_noticia{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.final_line{
+    background-color: rgb(138, 1, 1); 
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    font-size: 90%;
+}
+
+a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+/* Fim CSS*/
+    </style>
+
+
+    <!-- Título Página-->
+    <title> Notícias do Mundo - Maduro </title>
+</head>
+
+<body>
+    <!-- Linha mais em cima Branca Contendo Criador e TIA-->
+    <div class="pre_header">
+        <p> Criado por Gustavo Carvalho</p>
+        <p class="tia"> Mackenzie | TIA - 32442548 </p>
+    </div>
+
+    <!-- Linha Principal Vermelha Contendo Título Principal-->
+    <header> 
+        <div class="titulo_noticia">
+            <a href="../index.html"> <h1> Notícias ao redor do Mundo </h1> </a>
+        </div>
+    </header>
+
+    <!-- Inicio Article (Corpo da Página) -->
+    <article>
+        <div class="article-header"> 
+            <h1> Nicolás Maduro acusa líder da oposição de ter pacto com Elon Musk e o diabo</h1>
+            <hr>
+            <p> Presidente venezuelano critica atuação política de María Corina Machado, principal articuladora da oposição no país </p>
+            <img src="maduro1.webp" width="60%" height="500px">
+            <p> Presidente da Venezuela, Nicolás Maduro </p>
+        </div>
+            <hr>
+            <div class="noticia">
+                <div class="paragrafos_noticia">
+                    <p> O líder venezuelano, Nicolás Maduro, acusou na segunda-feira (19) a líder da oposição, María Corina Machado, de ter um pacto com o diabo e com o dono do X, o bilionário Elon Musk.</p>
+                    <img src="maduro2.jpg" width="70%" height="70%">
+                    <p> Os ataque de Maduro contra Machado ocorrem em meio à disputa sobre quem ganhou a eleição presidencial venezuelana — a autoridade eleitoral, controlada por Maduro, afirma que o político bolivariano foi reeleito; visão contestada tanto pelo candidato da oposição Edmundo González quanto por uma série de autoridades mundiais e pelo Carter Center, o principal observador eleitoral que acompanhou o pleito.</p>
+                    <p> “Não deixo a política ao ego de um indivíduo que acredita ser sobrenatural e faz pactos satânicos com Elon Musk e a igreja satânica de Detroit, como faz María ‘violência’ Machado (referindo-se à líder da oposição María Corina Machado). Não depende de uma pessoa, de um ego ou de um pacto satânico”, afirmou Maduro no lançamento de uma consulta à população para o desenvolvimento de projetos regionais. </p>
+                    <p> A CNN entrou em contato com a equipe de María Corina Machado para comentar as acusações de Maduro, mas por enquanto não houve resposta. </p>
+                </div>
+            </div>
+    </article>
+    <!-- Fim Article (Corpo da Página)-->
+    <div class="final_line">   
+    <!-- Fim Article (Corpo da Página)-->
+    <div class="final_line"> 
+        <a href="../index.html"> <p> Para voltar a página principal clique aqui! </p> </a>  
+    </div>
+    </div>
+</body>
+</html>

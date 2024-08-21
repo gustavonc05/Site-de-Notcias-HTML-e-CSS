@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+/* Início CSS */
+
+/* Zerando Padding e Margin no Body*/
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.pre_header{
+    font-size: 80%;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(189, 0, 0); 
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Arredondando borda das imagens */
+img{
+    border-radius: 5px;
+}
+
+/* Fazendo a div ter 70% do tamanho para aplicar o flex center e nao ocupar toda tela*/
+.article-header{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Título Geral da Notícia */
+.article-header h1{
+    width: 60%;
+    font-size: 300%;
+    margin-bottom: -1px;
+}
+
+.article-header hr {  
+    width: 60%;
+}             
+
+.noticia{
+    display: flex;
+    justify-content: center;
+}
+
+/* Fazendo o article (noticia) ter metade do tamanho para centralizar e o texto ficar menos largo*/
+.paragrafos_noticia{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.final_line{
+    background-color: rgb(138, 1, 1); 
+    color: #FFF;
+    display: flex;
+    font-size: 80%;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+
+/* Fim CSS*/
+    </style>
+
+
+    <!-- Título Página-->
+    <title> Notícias do Mundo - Comando Vermelho </title>
+</head>
+
+<body>
+    <!-- Linha mais em cima Branca Contendo Criador e TIA-->
+    <div class="pre_header">
+        <p> Criado por Gustavo Carvalho</p>
+        <p class="tia"> Mackenzie | TIA - 32442548 </p>
+    </div>
+
+    <!-- Linha Principal Vermelha Contendo Título Principal-->
+    <header> 
+        <div class="titulo_noticia">
+            <a href="../index.html"> <h1> Notícias ao redor do Mundo </h1> </a>
+        </div>
+    </header>
+
+    <!-- Inicio Article (Corpo da Página) -->
+    <article>
+        <div class="article-header"> 
+            <h1> Governo do RJ quer que líderes do Comando Vermelho sejam transferidos para presídios federais </h1>
+            <hr>
+            <p> Medida visa dificultar o contato dos líderes da facção com outros membros da associação. </p>
+            <iframe width="50%" height="400px" src="https://www.youtube.com/embed/A3ujWDuNMXw?si=uLsR0jNZSWWjqOwZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            
+        </div>
+        <br>
+        <br>
+            <hr>
+            <div class="noticia">
+                <div class="paragrafos_noticia">
+                    <p> A Secretaria da Segurança Pública do Rio de Janeiro anunciou que irá solicitar à Justiça que os líderes da organização criminosa Comando Vermelho (CV) sejam transferidos para presídios federais.</p>
+                    <img src="comando-vermelho.webp" width="70%" height="70%">
+                    <p> A medida, segundo o governo estadual, tem o objetivo de dificultar a possibilidade de contato dos líderes da facção com os liderados. </p>
+                    <p> Durante uma reunião entre o governador do estado, Cláudio Castro (PL), os representantes das secretarias de Polícia Civil, Militar e de Administração Penitenciária e o secretário da Segurança Pública do Rio de Janeiro, Victor dos Santos, foi acordado que a medida seria solicitada para impedir que algumas lideranças ordenem, de dentro da cadeia, que seus liderados promovam ataques em áreas de facções rivais para a dominação de novos territórios. </p>
+                    <p> O governo também pedirá que os líderes não fiquem na penitenciária federal de Campo Grande (MS), onde está preso o traficante Marcinho VP. </p>
+                    <p> De acordo Cláudio Castro, a parceria entre as equipes de segurança e o Ministério Público está individualizando cada pedido de transferência com justificativas específicas. “Vamos dar o nome e mostrar as ações ordenadas pelo criminoso e as consequências da ordem que partiu dele. Queremos a judicialização de cada conduta”, ressaltou o governador. </p>
+                </div>
+            </div>
+    </article>
+    <!-- Fim Article (Corpo da Página)-->
+    <div class="final_line"> 
+        <a href="../index.html"> <p> Para voltar a página principal clique aqui! </p> </a>  
+    </div>
+</body>
+</html>

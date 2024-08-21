@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+/* Início CSS */
+
+/* Zerando Padding e Margin no Body*/
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.pre_header{
+    font-size: 80%;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(189, 0, 0); 
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Arredondando borda das imagens */
+img{
+    border-radius: 5px;
+}
+
+/* Fazendo a div ter 70% do tamanho para aplicar o flex center e nao ocupar toda tela*/
+.article-header{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Título Geral da Notícia */
+.article-header h1{
+    font-size: 250%;
+}
+
+.article-header hr {   
+    width: 70%;
+    margin-top: -3px;
+}             
+
+.noticia{
+    display: flex;
+    justify-content: center;
+}
+
+/* Fazendo o article (noticia) ter metade do tamanho para centralizar e o texto ficar menos largo*/
+.paragrafos_noticia{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.final_line{
+    background-color: rgb(138, 1, 1); 
+    color: #FFF;
+    display: flex;
+    font-size: 80%;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+/* Fim CSS*/
+    </style>
+
+
+    <!-- Título Página-->
+    <title> Notícias do Mundo - Velhice </title>
+</head>
+
+<body>
+    <!-- Linha mais em cima Branca Contendo Criador e TIA-->
+    <div class="pre_header">
+        <p> Criado por Gustavo Carvalho</p>
+        <p class="tia"> Mackenzie | TIA - 32442548 </p>
+    </div>
+
+    <!-- Linha Principal Vermelha Contendo Título Principal-->
+    <header> 
+        <div class="titulo_noticia">
+            <a href="../index.html"> <h1> Notícias ao redor do Mundo </h1> </a>
+        </div>
+    </header>
+
+    <!-- Inicio Article (Corpo da Página) -->
+    <article>
+        <div class="article-header"> 
+            <h1> Morre a pessoa mais velha do mundo, aos 117 anos </h1>
+            <hr>
+            <p> Maria Branyas Morera vivia na Catalunha e morreu num lar para idosos onde morava há duas décadas </p>
+            <img src="idosa.avif" width="70%" height="520px">
+            <h3> Maria Branyas Morera, a pessoa mais velha do mundo, morreu aos 117 anos </h3>
+        </div>
+            <hr>
+            <div class="noticia">
+                <div class="paragrafos_noticia">
+                    <p> A pessoa mais velha do mundo, Maria Branyas Morera, morreu aos 117 anos, conforme anunciou sua família nas redes sociais.</p>
+                    <img src="idosa2.webp" width="70%" height="70%">
+                    <p> O Guinness World Records também emitiu um comunicado confirmando sua morte aos 117 anos e 168 dias, tornando-a a oitava pessoa a atingir a idade mais velha verificada na história.</p>
+                    <p> “Mary faleceu pacificamente no lar de idosos na Catalunha, Espanha, onde residiu durante duas décadas”, afirmou o comunicado do Guinness World Records, que acrescentou que ela morreu na segunda-feira (19).</p>
+                    <p> Nesta terça-feira (20), a família de Morera publicou um post em sua conta X anunciando sua morte. </p>
+                    <p> “Ela saiu como queria: dormindo, em paz e sem dor”, dizia o post. </p>
+                    <p> Sua família acrescentou que Morera lhes disse pouco antes de sua morte: “Não sei quando, mas muito em breve esta longa jornada chegará ao fim, sorridente, livre e satisfeita”. </p>
+                </div>
+            </div>
+    </article>
+    <!-- Fim Article (Corpo da Página)-->
+    <div class="final_line">   
+        <a href="../index.html"> <p> Para voltar a página principal clique aqui! </p> </a>  
+    </div>
+</body>
+</html>
